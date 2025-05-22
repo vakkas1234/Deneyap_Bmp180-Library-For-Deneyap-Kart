@@ -23,4 +23,7 @@ private:
     int32_t readRawPressure();
     void readCalibrationData();
     uint16_t read16(uint8_t reg);
-    uint8_t read8(uint8_t re
+    uint8_t read8(uint8_t reg);
+};
+
+#endif
