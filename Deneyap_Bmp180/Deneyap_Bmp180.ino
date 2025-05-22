@@ -22,4 +22,13 @@ void loop() {
     Serial.print(sicaklik);
     Serial.println(" °C");
 
-    S
+    Serial.print("Basinc: ");
+    Serial.print(basinc);
+    Serial.println(" hPa");
+
+    Serial.print("Yukseklik: ");
+    Serial.print(yukseklik);
+    Serial.println(" m");
+
+    delay(2000); // 2 saniye bekle
+}
